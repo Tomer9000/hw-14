@@ -1,0 +1,7 @@
+---
+- name: Creating a file with content
+  copy:
+    dest: "/tmp/test1"
+    content: |
+      Hello world!
+    force: no

@@ -1,0 +1,3 @@
+---
+- name: Deploy file with content
+  import_tasks: './create_file.yml'

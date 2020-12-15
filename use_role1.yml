@@ -1,0 +1,4 @@
+---
+- hosts: sec
+  roles:
+    - common

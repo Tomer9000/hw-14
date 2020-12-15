@@ -1,0 +1,6 @@
+[local]
+localhost ansible_connection=local
+
+[sec]
+172.17.0.3
+172.17.0.4

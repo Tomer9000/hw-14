@@ -1,0 +1,7 @@
+---
+- name: Creating a file with content
+  copy:
+    dest: "/tmp/test2"
+    content: |
+      This servers hostname is: {{ ansible_facts['nodename'] }}
+    force: no
